@@ -1,0 +1,46 @@
+.header{
+	background: #ff8080;
+	width: 950px;
+	height: 150px;
+	margin:0 auto;
+}
+
+.header h1{
+	text-align: right;
+	margin-right: 25px;
+	font-family: verdana;
+}
+
+.header small{
+	font-size: 50%;
+	
+}
+
+.menu{
+	background: #0000f0;
+	width: 950px;
+	height: 30px;
+	margin: 0 auto;
+	text-align: left;
+}
+
+.menu div:hover{
+	-webkit-transition: width 2s;
+}
+.menu ul li{
+	display: inline-block;
+}
+
+.menu ul li a{
+	margin: 15px;
+	
+	color: #fff;
+	font-family: verdana;
+	text-decoration: none;
+}
+.menu ul li a:hover{
+	background-color: #00f000;
+	-webkit-transition: width 2s;
+}
+
+.content{}
